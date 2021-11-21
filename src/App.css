@@ -76,9 +76,10 @@
   padding-bottom: 45px;
 }
 
-.twitter-logo {
+.github-logo {
   width: 35px;
   height: 35px;
+  padding: 1%;
 }
 
 .footer-text {

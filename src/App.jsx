@@ -1,29 +1,29 @@
 import React from 'react';
-import twitterLogo from './assets/twitter-logo.svg';
+import githubLogo from './assets/github-logo.svg';
 import './App.css';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const GITHUB_USERNAME = 'olumide95';
+const GITHUB_LINK = `https://github.com/${GITHUB_USERNAME}`;
 
 const App = () => {
   return (
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🖼 GIF Portal</p>
+          <p className="header">👽 GIF Portal</p>
           <p className="sub-text">
-            View your GIF collection in the metaverse ✨
+            View your favourite GIF collection in the metaverse 🚀
           </p>
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          <img alt="Github Logo" className="github-logo" src={githubLogo} />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={GITHUB_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`@${GITHUB_USERNAME}`}</a>
         </div>
       </div>
     </div>
